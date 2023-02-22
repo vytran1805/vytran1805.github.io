@@ -102,13 +102,28 @@ header {
   align-self: auto; 
   font-size: 3.8em;
 }
+#homepage-img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
 @media screen and (max-width: 600px) {
   .homepage-container  {
     grid-template-columns: repeat(1,1fr);
   }
   #introduction {
     font-size: 2em;
-    text-align: center;
+    margin-right: 1.2em;
+    text-align: right;
+  }
+
+  #intro-box {
+    display: inline-block;
+    text-align: right;
+  }
+  #homepage-img img{
+    width: 20em;
   }
 }
 #intro-box {
@@ -119,12 +134,7 @@ header {
   border-radius: 40px;
 }
 
-#homepage-img img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
+
 
 /*--------------------------------------------------------------
 # general styling for about and courses page
