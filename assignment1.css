@@ -62,7 +62,7 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #383a3c;
-  padding: 20px;
+  padding: 5px 20px;
   font-size: 1.2em;
 }
 .nav-list a:hover{
@@ -100,7 +100,7 @@ header {
   padding-top: 3em;
   margin: 0;
   align-self: auto; 
-  font-size: 3.8em;
+  font-size: 3.2em;
 }
 #homepage-img img{
   display: block;
@@ -164,7 +164,7 @@ header {
 .about-title {
   font-family: 'Bitter', sans-serif;
   font-weight: bolder;
-  font-size: 2.4rem;
+  font-size: 1.8em;
 }
 
 .grid-container {
@@ -173,7 +173,7 @@ header {
   margin: 40px 40px 40px 40px;
   padding: 20px;
   /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
-  font-size: 1.4rem;
+  font-size: 1.2em;
   border-radius: 20px;
   background-color: #f1f1f1;
   overflow: hidden;
@@ -181,10 +181,10 @@ header {
 
 .grid-item-1 {
   display: flex;  
-  margin-left: 3em;
+  margin-left: 1em;
   position: relative; 
   align-self: center;
-  width: 60%; 
+  width: 80%; 
   overflow: hidden; 
   border-radius: 50%; 
 } 
@@ -204,18 +204,8 @@ header {
     grid-template-columns: repeat(1,1fr);
     grid-template-areas:  "grid-item-1" "grid-item-2";
   }
-  .grid-item-1 {
-    margin-left: 1em;
-    width: 80%;
-    align-self: center;
-
-  }
 }
 
-/* .grid-item-2 {
-  grid-row: 1 / span 2;
-  grid-column: 2;
-} */
 .grid-info {
   line-height: 180%;
 }
@@ -223,19 +213,13 @@ header {
   color: #1c1d1e;
   margin: 0.5em 0em;
 }
-/* .about-title::after{
-  display: block;
-  content: "";
-  border-bottom: 0.3vw solid #f4b016;
-  width: 4vw;
-} */
 blockquote {
   position: relative;
   align-self: center;
   font-family: 'Tahoma', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.2em;
   margin-bottom: 1em;
-  margin-left: 3em;
+  margin-left: auto;
   letter-spacing: 0.08vw;
   opacity: 0.9;
   font-style: italic; 
@@ -245,13 +229,13 @@ blockquote {
   
 }
 cite {
-  font-size: 1.5rem;
+  font-size: 1em;
 }
 blockquote p::before {
   content: "“";
   position: absolute;
   font-family: Georgia;
-  font-size: 5.5rem;
+  font-size: 3em;
   margin-top: 0.2em;
   margin-left: -0.5em;
   opacity: 0.8;
@@ -262,13 +246,13 @@ blockquote p::after {
   content: "”";
   font-family: Georgia;
   position: absolute;
-  font-size: 5.5rem;
+  font-size: 3em;
   margin-top: 0.2em;
   opacity: 0.8;
 }
 
-#skill-wrapper{
-  font-size: 1.5rem;
+/* #skill-wrapper{
+  font-size: em;
   width: 80%;
   height: auto;
 }
@@ -305,7 +289,7 @@ blockquote p::after {
 }
 .skill3{
  width: 75%;
-}
+} */
 /*-----------get in touch section-----------*/
 .about-contact-container {
   display: block;
@@ -316,7 +300,7 @@ blockquote p::after {
 /*email, phone number*/
 #contact-title {
   /* color: #e1e1e1; */
-  font-size: 2.4rem;
+  font-size: 2em;
   font-family: 'bitter',sans-serif;
   margin: 0.5em 0em;
 }
@@ -351,12 +335,12 @@ blockquote p::after {
   color: #686868;
 }
 .contact-flex-item > span {
-  margin: 0 3em 0 3em;
+  margin: 1em 3em 1em 3em;
 }
 .contact-item {
   display: block;
-  font-size: 1.3rem;
-  margin-top: -1em;
+  font-size: 1em;
+  margin-top: 0.5em;
   margin-left: -3em;
   font-family: 'Lola', sans-serif;
 }
